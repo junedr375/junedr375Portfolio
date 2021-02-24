@@ -1,11 +1,9 @@
-# # Clever Programmer ReactJS Portfolio Template      
+# # Juned Raza Portfolio
 
-![ReactJS Resume Website Template](portfolio.png?raw=true "ReactJS Resume Website Template")
+![jrazaPortfolio](https://user-images.githubusercontent.com/49837673/108989127-44ca4280-76bb-11eb-8856-b5d9d1d84e29.PNG)
 
-## <a href="https://pensive-golick-762a4c.netlify.app" target="_blank">LIVE DEMO</a>
+## <a href="https://distracted-lumiere-d2a513.netlify.app/" target="_blank">LIVE DEMO</a>
 
-## Description
-This is a ReactJS based personal resume website template for participants of The 6 Figure JavaScript ReactJS Challenge by Clever 
 
 ## Make it Your Own!
 #### PREREQUISITES:
