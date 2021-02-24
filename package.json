@@ -1,6 +1,6 @@
 {
   "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
+  "name": "junedr375.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,5 +44,16 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
+  },
+  "description": "![ReactJS Resume Website Template](portfolio.png?raw=true \"ReactJS Resume Website Template\")",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junedr375/junder375Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junedr375/junder375Portfolio/issues"
   }
 }

@@ -5,48 +5,49 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: true, // set to false to use static SVG
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Juned Raza",
+  title: "Hi all, I'm Juned,",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Flutter Developer along with Full stack Web developer(MERN) and Django. I like to build awesome applications and websites."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/11eehywjsEKUFwb5xUa-QhyoEwgVhRLa1/view?usp=sharing",
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/junedr375",
+  linkedin: "https://www.linkedin.com/in/junedr375",
+  // gmail: "https://mail-to:junedr375@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
-  display: true // Set true to display this section, defaults to false
+  medium: "https://mjraza.medium.com/",
+  stackoverflow: "https://stackoverflow.com/users/13691546/juned-raza",
+  instagram: "https://www.instagram.com/junedr375/",
+  twitter: "https://twitter.com/junedr375",
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "A PASSIONATE DEVELOPER WHO LIKES TO DEVELOP APPLICATIONS AND WEBSITES",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Complete backend with Firebase"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Integration of third party services e.g. Payments / Maps / Video & Audio Players"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -54,74 +55,81 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Flutter",
+      fontAwesomeClassname: "fas fa-mobile",
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire",
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "ReactJS",
+      fontAwesomeClassname: "fab fa-react",
     },
+    {
+      skillName: "Pyhton",
+      fontAwesomeClassname: "fab fa-python",
+    },
+    {
+      skillName: "C/C++",
+      fontAwesomeClassname: "far fa-copyright",
+    },
+    {
+      skillName: "NoSQL",
+      fontAwesomeClassname: "fas fa-database",
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-server",
+    },
+    {
+      skillName: "HTML-5",
+      fontAwesomeClassname: "fab fa-html5",
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt",
+    },
+
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Nodejs",
+      fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git",
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Aligarh Muslim University, Aligarh",
+      logo: require("./assets/images/amuLogo.png"),
+      subHeader: "Bachelor in Technology, Computer Engineering",
+      duration: "July 2018 - Present",
+      desc:
+        "Learning OOPS, DBMS, Computer Architecture, Microprocessor Theory, Advance Mathematics",
+      descBullets: ["CPI - 9.1", "Won 2 University Coding Hackathons"],
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+      schoolName: "Rajdhani College, Bhubaneswar",
+      logo: require("./assets/images/rajdhaniLogo.jpeg"),
+      subHeader: "Higher Secondary, Science",
+      duration: "May 2015 - July 2017",
+      desc: "College Topper",
+      descBullets: [],
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -130,19 +138,31 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Flutter / App development", //Insert stack or technology you have experience in
+      progressPercentage: "85%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "MERN Stack / Web Development",
+      progressPercentage: "75%",
     },
     {
-      Stack: "Programming",
-      progressPercentage: "90%"
-    }
+      Stack: "Firebase / Backend",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "Django / Web Development",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "Pyhton",
+      progressPercentage: "85%",
+    },
+    {
+      Stack: "C/C++",
+      progressPercentage: "80%",
+    },
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -151,36 +171,57 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
-      desc:
-        "Changing lives of developers one line of code at a time.",
+      role: "Flutter App Developer",
+      company: "Morning Cars, Gurugram",
+      companylogo: require("./assets/images/morningCar.jpeg"),
+      date: "Jan 2021 - Present",
+      desc: "Developing Android and iOS Application for MorningCars",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
-      ]
+        "Implementing smooth UI",
+        "Integrating with REST API",
+        "Loading JSON Data",
+      ],
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+      role: "App Developer",
+      company: "CodePlayers, Noida",
+      companylogo: require("./assets/images/codePlayer.png"),
+      date: "Jul 2020 - Jan 2021",
+      desc: "Built an application in which",
+      descBullets: [
+        "Solved issue of video Live-streaming using the Agora engine.",
+        "Integrated the PayPal payment service for purchasing",
+        "Built Music player which streams in background too",
+      ],
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    }
-  ]
+      role: "Flutter App Developer",
+      company: "PlacidVision, Bangalore",
+      companylogo: require("./assets/images/placidLogo.png"),
+      date: "May 2020 - Aug 2020",
+      desc: "Developed an OTT-Platform app",
+      descBullets: [
+        "Added Google, Facebook authentication",
+        "Video calling feature using JITSY meet",
+        "Multiple channels for different contents",
+        "Video Player which supports HLS format video",
+      ],
+    },
+    {
+      role: "Web Developer",
+      company: "Alfred Technologies, Hyderabad",
+      companylogo: require("./assets/images/alfredLogo.jpeg"),
+      date: "Jan 2020 - May 2020",
+      desc: "Added an Feature in company's website",
+      descBullets: [
+        "Built Internship Management portal",
+        "Users can register for internship",
+        "Admin can check and assign tasks",
+        "User can check real-time status of application",
+        "Hosted on Amazon EC2",
+      ],
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -188,42 +229,165 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "junedr375", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "SOME OF PERSONAL AND INTERNSHIP PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ottPlatform.jpg"),
+      projectName: "OTT Platform App",
+      projectDesc: "OTT Platform App which stream HLS videos",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "fa"
-        }
+          name: "See Project",
+          url:
+            "https://drive.google.com/file/d/1cLTGNe89iY3Wox_CaoHbFdb9NBGas-K3/view?usp=sharing",
+        },
         //  you can add extra buttons here.
-      ]
+      ],
+    },
+
+    {
+      image: require("./assets/images/liveStreaming.PNG"),
+      projectName: "Music Player cum Event Managment App",
+      projectDesc:
+        "Event management app with in-app Music Player. User also can purchase merchandise and musics",
+      footerLink: [
+        {
+          name: "See Project",
+          url:
+            "https://drive.google.com/file/d/1exP7CwdFREn3YtwTZvPie8RjODFQeme-/view?usp=sharing",
+        },
+      ],
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ecomPrime.PNG"),
+      projectName: "E-commerce App",
+      projectDesc:
+        "E-commerce Application built with Flutter Framework. Integrated with Stripe for payment and Wordpress's Woocommerce plugin.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: ""
-        }
-      ]
-    }
+          name: "See Project",
+          url:
+            "https://drive.google.com/file/d/1wEP4lCxDqhrnJ3xlEuZLaJXjV5803nrC/view?usp=sharing",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/timeTable.PNG"),
+      projectName: "Time Table App",
+      projectDesc:
+        "Time table app for student to be updated. Included admin page to upload class data.",
+      footerLink: [
+        {
+          name: "See Project",
+          url:
+            "https://drive.google.com/file/d/1VPI8JFdHLp1vMsraArq6smeKO3PD7MA3/view?usp=sharing",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/chatApp.PNG"),
+      projectName: "Chatting App",
+      projectDesc:
+        "Chatting app with Firebase as backend. Streaming live chats. Searching users and chatting available",
+      footerLink: [
+        {
+          name: "See Project",
+          url:
+            "https://drive.google.com/file/d/1OdGkqCF0wPpj2pjTpJ31vOoolGIgi7Qw/view?usp=sharing",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/youTubeClone.PNG"),
+      projectName: "Youtube Clone",
+      projectDesc: "Youtube clone using FLutter. Loading data from JSON file.",
+      footerLink: [
+        {
+          name: "See Project",
+          url:
+            "https://drive.google.com/file/d/1qB_nTGKUp940Lr-xM5YWD4US6tKcMgzn/view?usp=sharing",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/newsReader.PNG"),
+      projectName: "NewsReader App",
+      projectDesc:
+        "NewsReader app fetching data from API and loading Json data. Showing news in flutter webview.",
+      footerLink: [
+        {
+          name: "See Project",
+          url:
+            "https://drive.google.com/file/d/1ISYtL6i9u5GUr6xWji4Efhx7MiZJaVCL/view?usp=sharing",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/linkedInClone.PNG"),
+      projectName: "LinkedIn React Clone",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "See Project",
+          url: "https://linkedin-clone-6cf64.web.app/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/amazonReactClone.PNG"),
+      projectName: "Amazon React Clone",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "See Project",
+          url: "https://clone-8cc12.web.app/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/whatsappReactClone.PNG"),
+      projectName: "Whatsapp React Clone",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "See Project",
+          url: "https://whatsapp-mern-1909b.web.app/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/tinderReactClone.PNG"),
+      projectName: "Tinder React Clone",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "See Project",
+          url: "https://tinder-clone-d13c4.web.app/",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/tiktokClone.png"),
+      projectName: "Tiktok React Clone",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "See Project",
+          url: "https://tiktok-clone-mern-ddff0.web.app/",
+        },
+      ],
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -243,20 +407,17 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url:
-            ""
+          url: "",
         },
         {
           name: "Award Letter",
-          url:
-            ""
+          url: "",
         },
         {
           name: "Google Code-in Blog",
-          url:
-            ""
-        }
-      ]
+          url: "",
+        },
+      ],
     },
     {
       title: "Google Assistant Action",
@@ -266,10 +427,9 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url:
-            ""
-        }
-      ]
+          url: "",
+        },
+      ],
     },
 
     {
@@ -277,15 +437,15 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -297,39 +457,35 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://mjraza.medium.com/flutter-paypal-integration-d1f4585b596f",
+      title: "Flutter PayPal Integration",
+      description: "Integrate Paypal as your payment gateway in Flutter app",
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+      url:
+        "https://medium.com/junedr375/flutter-column-and-listview-177f9fd8070c",
+      title: "Flutter Column and ListView",
+      description: "Difference between Flutter ListView and Column.",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    ""
-  ),
+  subtitle: emoji(""),
 
   talks: [
     {
       title: "",
       subtitle: "",
       slides_url: "",
-      event_url: ""
-    }
+      event_url: "",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -339,33 +495,31 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
-  display: false // Set false to hide this section, defaults to true
+  podcast: [""],
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "+91 90786 13527",
+  email_address: "junedr375@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "junedr375", //Replace "twitter" with your twitter username without @
+  display: true, // Set true to display this section, defaults to false
 };
 
 export {
   illustration,
   greeting,
   socialMediaLinks,
-  skillsSection,
   educationInfo,
+  skillsSection,
   techStack,
   workExperiences,
   openSource,
@@ -375,5 +529,5 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
 };
