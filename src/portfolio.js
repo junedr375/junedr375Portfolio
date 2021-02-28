@@ -202,7 +202,7 @@ const workExperiences = {
       desc: "Developed an OTT-Platform app",
       descBullets: [
         "Added Google, Facebook authentication",
-        "Video calling feature using JITSY meet",
+        "Video calling feature using JITSI meet",
         "Multiple channels for different contents",
         "Video Player which supports HLS format video",
       ],
