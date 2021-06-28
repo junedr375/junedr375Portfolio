@@ -12,10 +12,10 @@ const greeting = {
   username: "Juned Raza",
   title: "Hi all, I'm Juned,",
   subTitle: emoji(
-    "A passionate Flutter Developer along with Full stack Web developer(MERN) and Django. I like to build awesome applications and websites."
+    "A passionate Flutter Developer along with Full stack Web developer(MERN) and Django. I like to build awesome applications and websites. Currently serving as a Freelancer"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/11eehywjsEKUFwb5xUa-QhyoEwgVhRLa1/view?usp=sharing",
+    "https://drive.google.com/file/d/161vM7Op3szmTsGgVh3tBf69Eccd2S2ME/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -27,7 +27,7 @@ const socialMediaLinks = {
   // gmail: "https://mail-to:junedr375@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://mjraza.medium.com/",
+  medium: "https://junedr375.medium.com/",
   stackoverflow: "https://stackoverflow.com/users/13691546/juned-raza",
   instagram: "https://www.instagram.com/junedr375/",
   twitter: "https://twitter.com/junedr375",
@@ -39,15 +39,16 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "A PASSIONATE DEVELOPER WHO LIKES TO DEVELOP APPLICATIONS AND WEBSITES",
+    "A PASSIONATE FULL STACK DEVELOPER WHO LIKES TO DEVELOP APPLICATIONS AND WEBSITES",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Complete backend with Firebase"),
+    emoji("⚡ Complete backend with Firebase and REST API"),
     emoji(
       "⚡ Integration of third party services e.g. Payments / Maps / Video & Audio Players"
     ),
+    emoji("⚡ Experienced with Figma and Adobe."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -171,10 +172,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Developer",
+      company: "Ventive, Boise ID, USA",
+      companylogo: require("./assets/images/ventive.jpg"),
+      date: "March 2021 - Present",
+      desc: "Helping as Application Developer",
+      descBullets: [
+        "Buiding Application With Flutter Framework",
+        "Extracting Assests from Figma File",
+        "Solving Bugs",
+      ],
+    },
+    {
+      role: "Flutter Developer",
+      company: "GrowthGear, New Delhi",
+      companylogo: require("./assets/images/growthGear.jpg"),
+      date: "March 2021 - Aprill 2021",
+      desc: "Build Mobile Application with Smooth UI",
+      descBullets: [
+        "Build Application With Modern UI",
+        "Assets Extracted from Adobe File",
+        "Integrated Stripe, Google Map",
+      ],
+    },
+    {
       role: "Flutter App Developer",
       company: "Morning Cars, Gurugram",
       companylogo: require("./assets/images/morningCar.jpeg"),
-      date: "Jan 2021 - Present",
+      date: "Jan 2021 - March 2021",
       desc: "Developing Android and iOS Application for MorningCars",
       descBullets: [
         "Implementing smooth UI",
@@ -237,9 +262,22 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "My Projects",
-  subtitle: "SOME OF PERSONAL AND INTERNSHIP PROJECTS",
+  title: "My Works",
+  subtitle: "PERSONAL AND FREELANCING WORKS",
   projects: [
+    {
+      image: require("./assets/images/ticketBooking.PNG"),
+      projectName: "Ticket Booking Application",
+      projectDesc: "Application to Book Tickets Online for Parks and Parking",
+      footerLink: [
+        {
+          name: "See Project",
+          url:
+            " https://drive.google.com/file/d/1oy4WQebpN3qW7IV4OnTQdRnyasR3CEMd/view?usp=sharing",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
     {
       image: require("./assets/images/ottPlatform.jpg"),
       projectName: "OTT Platform App",
@@ -457,15 +495,27 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://mjraza.medium.com/flutter-paypal-integration-d1f4585b596f",
+      url:
+        "https://junedr375.medium.com/basic-git-commands-for-creating-new-branch-and-pull-request-4033724c17a",
+      title: "Git Essential Commands",
+      description: "Git Commands for Creating new branch and Pull Request",
+    },
+    {
+      url:
+        "https://junedr375.medium.com/flutter-paypal-integration-d1f4585b596f",
       title: "Flutter PayPal Integration",
       description: "Integrate Paypal as your payment gateway in Flutter app",
     },
     {
-      url:
-        "https://medium.com/junedr375/flutter-column-and-listview-177f9fd8070c",
-      title: "Flutter Column and ListView",
-      description: "Difference between Flutter ListView and Column.",
+      url: "https://junedr375.medium.com/flutter-provider-9681eac20c38",
+      title: "Flutter Provider",
+      description:
+        "Starting with Flutter Provider with Making Shopping Cart and theme changing",
+    },
+    {
+      url: "https://junedr375.medium.com/flutter-custom-calender-cdbb1db412eb",
+      title: "Flutter Custom Calender",
+      description: "Implementing own Custom Calender in Flutter",
     },
   ],
   display: true, // Set false to hide this section, defaults to true
