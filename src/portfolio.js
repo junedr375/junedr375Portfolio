@@ -175,11 +175,11 @@ const workExperiences = {
       role: "Software Developer",
       company: "Ventive, Boise ID, USA",
       companylogo: require("./assets/images/ventive.jpg"),
-      date: "March 2021 - Present",
+      date: "Aprill 2021 - Present",
       desc: "Helping as Application Developer",
       descBullets: [
         "Buiding Application With Flutter Framework",
-        "Extracting Assests from Figma File",
+        "Extracting Assets from Figma File",
         "Solving Bugs",
       ],
     },
