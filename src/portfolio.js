@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Flutter Developer along with Full stack Web developer(MERN) and Django. I like to build awesome applications and websites. Currently serving as a Freelancer"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/161vM7Op3szmTsGgVh3tBf69Eccd2S2ME/view?usp=sharing",
+    "https://drive.google.com/file/d/1Dnvpn1HeK8EPwXeoaYEfG-n2yV771-KM/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
